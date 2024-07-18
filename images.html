@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="section">
+        <h4>About</h4>
+        <h4>Store</h4>
+      </div>
+      <div class="section">
+        <h5>Gmail</h5>
+        <a href="index.html" style="text-decoration: none"><h5>Search</h5></a>
+        <a href="advanced.html" style="text-decoration: none"
+          ><h5>Advanced Search</h5></a
+        >
+      </div>
+    </header>
+
+    <div class="search-section">
+      <img
+        id="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png"
+        alt="google-logo"
+      />
+      <form action="https://www.google.com/search" method="get">
+        <input type="hidden" name="tbm" value="isch"/>
+        <input id="search-bar" type="text" name="q" />
+        <div class="button-group">
+          <button type="submit">Google Images</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > h4,h5 {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.header > h4,h5:hover {
+    text-decoration: underline;
+}
+.header > a:active{
+    color: black;
+}
+
+.section {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+}
+
+#search-bar {
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 280%;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group > button{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+.button-group > button:hover {
+    background-color: lightgray;
+}
